@@ -1,0 +1,52 @@
+// 1. 
+
+document.getElementById('container');
+
+// 2.
+
+document.querySelector('#container');
+
+// 3.
+
+document.querySelectorAll('.second');
+
+// 4.
+
+document.querySelector('ol li:last-child');
+
+//  5.
+
+// document.querySelector('#container').innerText = 'Hello!';
+
+// 6.
+
+document.querySelector('.footer').className.add = 'main';
+
+// 7.
+
+document.querySelector('.footer').className.remove = 'main';
+
+// 8.
+
+const newLi = document.createElement('li');
+
+// 9.
+
+newLi.textContent = 'four';
+
+// 10.
+
+document.querySelector('ul').append(newLi);
+
+// 11.
+
+let Ol = document.querySelectorAll("ol li");
+
+for(let i=0; i<Ol.length; i++){
+    Ol[i].style.backgroundColor = "green";
+}
+
+// 12.
+
+let foot = document.querySelector(".footer");
+foot.remove();
